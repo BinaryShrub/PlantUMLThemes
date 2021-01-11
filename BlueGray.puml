@@ -1,0 +1,42 @@
+!$PRIMARY="#01579b"
+!$SECONDARY="#4f83cc"
+!$WHITE="#ffffff"
+!$GRAY="#9e9e9e"
+!$DARK="#616161"
+
+skinparam defaultFontName        "Verdana"
+skinparam defaultFontSize        14
+skinparam shadowing              false
+skinparam roundcorner            15
+skinparam ParticipantPadding     30
+skinparam BoxPadding             40
+skinparam Padding                8
+skinparam ArrowColor             $PRIMARY
+
+skinparam participant {
+    FontColor $WHITE
+	  BorderColor $PRIMARY
+	  BackgroundColor $PRIMARY
+}
+
+skinparam sequence {
+    LifeLineBorderColor $GRAY
+
+    GroupBorderColor $DARK
+    GroupHeaderFontColor $SECONDARY
+
+	  BoxBorderColor $GRAY
+	  BoxFontColor $DARK
+
+    DividerBackgroundColor $GRAY
+    DividerBorderColor $DARK
+    DividerBorderThickness 1
+    DividerFontColor $WHITE
+}
+
+skinparam note {
+    BorderThickness 1
+	  BackgroundColor $SECONDARY
+	  BorderColor $PRIMARY
+	  FontColor $WHITE
+}
